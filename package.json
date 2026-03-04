@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "node-libcurl": "^4.1.0"
+  },
+  "scripts": {
+    "start-bot": "node index.js",
+    "deploy-changes": "node deploy-commands.js"
+  }
+}

@@ -1,0 +1,7 @@
+// File should be named `config.json`, remove any comments - including this one
+
+{
+	"token": "XXXXXXXXX", 					// Token from the Bot set up page in Discord
+	"clientId": "XXXXXXXXXX", 				// Client ID from the Bot set up page in Discord 
+	"guildId": "XXXXXXXXXXXX" 				// Server ID
+}
