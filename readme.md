@@ -1,12 +1,12 @@
- # GuildbankSync discord bot
+ # RosterHelper discord bot
  
- This bot takes an CSV export from the addon Guild Bank List Creator Plus in the CSV format
- 
- Install the addon then use `/gblc csv true` to enable CSV exports, then `/gblc` to do an export
- 
- Copy the export string, move to Discord and use the command `/importbank` then paste the exported string
- 
- The bot will then process the export and post it into the desired channel.
+ This bot uses the RaidHelper APIs to compare two events, helping to identify players who:
+
+ - Signed to both the current raid and the previous raid, but did not get a spot in the previous raid
+ - Signed to the current raid but did not sign to the previous raid
+
+This is to help the raid leaders identify players who may have been overlooked in the previous raid, or who may not be
+able to participate on raids on certain days
  
  ## Installation
  
@@ -18,7 +18,7 @@
  
  - Run the server with `npm run start-bot`
  
- - The `/importbank` command should now function while this is running
+ - The `/findbenched` command should now function while this is running
  
  - If deploying to a server for permanant usage, install as a service
  
